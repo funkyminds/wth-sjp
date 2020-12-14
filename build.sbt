@@ -1,6 +1,6 @@
 name := "wth-sjp"
 
-version := "0.0.1"
+version := "0.0.1-SNAPSHOT"
 
 organization in ThisBuild := "io.funkyminds"
 
@@ -10,7 +10,7 @@ scalacOptions := Seq("-unchecked", "-deprecation")
 
 //@formatter:off
 libraryDependencies ++= Seq(
-  "io.funkyminds"       %%  "wth-core"            % "0.0.1",
+  "io.funkyminds"       %%  "wth-core"            % "0.0.1-SNAPSHOT",
   "dev.zio"             %%  "zio"                 % "1.0.3",
   "org.apache.commons"  %   "commons-text"        % "1.9",
   "org.jsoup"           %   "jsoup"               % "1.13.1"
